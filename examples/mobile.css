@@ -3,8 +3,8 @@
   background: rgba(216, 85, 0, 0.3);
 }
 .chessground .piece.dragging {
-  width: 200%;
-  height: 200%;
+  width: 150%;
+  height: 150%;
 }
 
 .mobile .chessground.cburnett .piece.pawn.white {
