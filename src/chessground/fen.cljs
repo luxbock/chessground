@@ -5,7 +5,13 @@
 
 (def default "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
 
-(def role-names {"p" "pawn" "r" "rook" "n" "knight" "b" "bishop" "q" "queen" "k" "king"})
+(def role-names
+  {"p" "pawn"
+   "r" "rook"
+   "n" "knight"
+   "b" "bishop"
+   "q" "queen"
+   "k" "king"})
 
 (defn- pos-to-key [pos]
   (str (get "abcdefgh" (mod pos 8))
